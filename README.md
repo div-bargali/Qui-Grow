@@ -12,10 +12,16 @@ Sarcasm prediction App - https://ml-sarcasm-app.herokuapp.com/
 
 template used for landing - <https://bootstrapmade.com/demo/BizPage/>
 
-Landing Page - https://nimisha-singh.github.io/frontend/index.html
-
 Devfolio Submission - https://devfolio.co/submissions/quigrow
 
 todo:
 
 - [ ] add homepage URL to package.json
+
+## Backend
+
+Sarcasm prediction App - https://ml-sarcasm-app.herokuapp.com/
+
+todo:
+
+- [ ] Create REST API endpoints for prediction app 
