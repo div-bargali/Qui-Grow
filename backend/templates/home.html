@@ -1,0 +1,19 @@
+<h1>Welcome to Sarcasm predictions</h1>
+<h2>Please enter a comment to analyze</h2>
+<form  method="POST">
+    {# This hidden_tag is a CSRF security feature. #}
+    {{ form.hidden_tag() }}
+    {{ form.comment.label }} {{form.comment}}
+    <br>
+    {{ form.submit() }}
+</form>
+<br>
+<h2>Example comments</h2>
+<ul>
+                                                                         
+    <li>former versace store clerk sues over secret 'black code' for minority shoppers</li>
+    <li>the 'roseanne' revival catches up to our thorny political mood, for better and worse</li>           
+    <li>mom starting to fear son's web series closest thing she will have to grandchild </li>
+    <li>boehner just wants wife to listen, not come up with alternative debt-reduction ideas</li>            <li>  j.k. rowling wishes snape happy birthday in the most magical way</li>     
+                           
+</ul>
